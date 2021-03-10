@@ -1,14 +1,14 @@
 # dj-BateauThibo
 start project
-use command : 
+use command :  
 'cd TME_webAPI_DJVAWS/mySearchEngine/'  
-'py manage.py runserver'
+'py manage.py runserver'  
 
-initialise table : 
---> voir dans myRevendeurApp\management\refreshInfoProduct.py
-use command : 
-'cd TME_webAPI_DJVAWS/mySearchEngine/'
-'py manage.py refreshInfoProduct'
+initialise table :   
+--> voir dans myRevendeurApp\management\refreshInfoProduct.py  
+use command :  
+'cd TME_webAPI_DJVAWS/mySearchEngine/'  
+'py manage.py refreshInfoProduct'  
 
 # Exo 1: #
  ⎋ .../infoproduct/<int:id>/ −→ retourne les informations décrivant le produit d’identifiant id, avec les 10 champs originaux plus 1 champs supplémentaire.
@@ -49,11 +49,11 @@ est compris entre 16 et 64, discount a pour valeur 50% du price sinon.
 le champs sale de tout produit passe automatiquement à FALSE lorsque la valeur du champs quantityInStock
 ne dépasse pas 16.
 
---> voir dans myRevendeurApp\management\refreshPromotionProduct.py
-use command : 
-'cd TME_webAPI_DJVAWS/mySearchEngine/'
-'py manage.py refreshPromotionProduct'
+--> voir dans myRevendeurApp\management\refreshPromotionProduct.py  
+use command :  
+'cd TME_webAPI_DJVAWS/mySearchEngine/'  
+'py manage.py refreshPromotionProduct'  
 
-visuel de la table:
-path: TME_webAPI_DJVAWS\mySearchEngine\db.sqlite3
+visuel de la table:  
+path: TME_webAPI_DJVAWS\mySearchEngine\db.sqlite3  
 ![Capture7](https://user-images.githubusercontent.com/43207346/110638690-2716d600-81af-11eb-92ec-b9eb5f789164.PNG)
