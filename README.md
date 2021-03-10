@@ -53,7 +53,8 @@ ne dépasse pas 16.
 use command :  
 'cd TME_webAPI_DJVAWS/mySearchEngine/'  
 'py manage.py refreshPromotionProduct'  
-
+pour automatisé :  
+'*/5 * * * * /usr/bin/python /home/toot/refreshPromotionProduct.py >/dev/null 2>&1'
 visuel de la table:  
 path: TME_webAPI_DJVAWS\mySearchEngine\db.sqlite3  
 ![Capture7](https://user-images.githubusercontent.com/43207346/110638690-2716d600-81af-11eb-92ec-b9eb5f789164.PNG)
