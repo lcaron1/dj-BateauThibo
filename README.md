@@ -1,7 +1,7 @@
 # dj-BateauThibo
 start project
 use command : 
-'cd TME_webAPI_DJVAWS/mySearchEngine/'
+'cd TME_webAPI_DJVAWS/mySearchEngine/'  
 'py manage.py runserver'
 
 initialise table : 
